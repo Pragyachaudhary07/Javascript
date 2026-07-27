@@ -1,4 +1,4 @@
-// Primitive 
+// Primitive
 
 // 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
@@ -32,3 +32,28 @@ const myFunction = function(){
     console.log("Hello world");
 }
 console.log(typeof myFunction); 
+
+
+// +++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non- Primitive)
+
+let myYoutubename = "pragyachaudharydotcom"
+
+let anothername = myYoutubename;
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email : "user@google.com", 
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "pragya@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
